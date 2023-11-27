@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --headed --browser electron",
-    "cy:open": "cypress open"
-  },
+    "test": "cypress run --spec cypress/e2e/BDD/Login/loginMake.feature"
+    },
   "author": "",
   "license": "ISC",
   "devDependencies": {
